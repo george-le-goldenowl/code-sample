@@ -1,0 +1,22 @@
+{
+    "name": "go/sample",
+    "description": "Code sample",
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "Go\\Sample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Le George",
+            "email": "george.le.goldenowl@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
